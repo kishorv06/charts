@@ -139,6 +139,26 @@ entries:
   aws-alb-ingress-controller:
   - apiVersion: v1
     appVersion: v1.1.8
+    created: "2020-11-10T07:29:34.156653077Z"
+    description: A Helm chart for AWS ALB Ingress Controller
+    digest: 27ba4482b310137ef0206d74ce04574efa6f2b67d3893382cc97b75507f443c5
+    home: https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    keywords:
+    - aws
+    - ingress
+    maintainers:
+    - email: kraig.amador@ticketmaster.com
+      name: bigkraig
+    - email: yyyng@amazon.com
+      name: M00nF1sh
+    name: aws-alb-ingress-controller
+    sources:
+    - https://github.com/kubernetes-sigs/aws-alb-ingress-controller
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/aws-alb-ingress-controller-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    appVersion: v1.1.8
     created: "2020-10-15T10:42:06.807889-04:00"
     description: A Helm chart for AWS ALB Ingress Controller
     digest: 82b566c9231499c3e053dab252d4d3ec6bd8dafd7a43b9707164e1a11de1101e
@@ -418,6 +438,49 @@ entries:
     - https://charts.helm.sh/incubator/packages/aws-alb-ingress-controller-0.1.4.tgz
     version: 0.1.4
   azuremonitor-containers:
+  - apiVersion: v1
+    appVersion: 7.0.0-1
+    created: "2020-11-10T07:29:34.158268276Z"
+    description: Helm chart for deploying Azure Monitor container monitoring agent
+      in Kubernetes
+    digest: d3af8af0a5f233d8d2d4f5d72ce2ff2c1b125f0246d34708d1a377231056c576
+    home: https://docs.microsoft.com/en-us/azure/monitoring/monitoring-container-health
+    icon: https://raw.githubusercontent.com/Microsoft/OMS-docker/ci_feature/img/azuremonitor-containers.svg
+    keywords:
+    - monitoring
+    - azuremonitor
+    - azure
+    - oms
+    - containerinsights
+    - metric
+    - event
+    - logs
+    - containerhealth
+    - kubernetesmonitoring
+    - acs-engine
+    - aks-engine
+    - azurestack
+    - openshift v4
+    - azure redhat openshift v4
+    - on-prem kubernetes monitoring
+    - containerlogs
+    - containerhealth
+    - containermonitoring
+    - hybrid kubernetes monitoring
+    - kubernetes
+    - kuberneteshealth
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: visnara@microsoft.com
+      name: vishiy
+    - email: gangams@microsoft.com
+      name: ganga1980
+    name: azuremonitor-containers
+    sources:
+    - https://github.com/microsoft/Docker-Provider/tree/ci_prod
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/azuremonitor-containers-2.7.7.tgz
+    version: 2.7.7
   - apiVersion: v1
     appVersion: 7.0.0-1
     created: "2020-10-15T10:42:06.821327-04:00"
@@ -1306,6 +1369,28 @@ entries:
   buzzfeed-sso:
   - apiVersion: v1
     appVersion: 2.1.0
+    created: "2020-11-10T07:29:34.159580175Z"
+    description: Single sign-on for your Kubernetes services using Google OAuth
+    digest: 671c9f82683c2f9bf0ef58b7bce133fe7ff58ac656ca30df8f5b8cf2b1dd87f9
+    home: https://github.com/buzzfeed/sso
+    icon: https://user-images.githubusercontent.com/10510566/44476420-a64e5980-a605-11e8-8ad9-2820109deb75.png
+    keywords:
+    - sso
+    - octoboi
+    - ssoctopus
+    maintainers:
+    - email: dblanco@minddoc.de
+      name: darioblanco
+    - email: alen.komljen@live.com
+      name: komljen
+    name: buzzfeed-sso
+    sources:
+    - https://hub.docker.com/r/buzzfeed/sso/
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/buzzfeed-sso-0.2.8.tgz
+    version: 0.2.8
+  - apiVersion: v1
+    appVersion: 2.1.0
     created: "2020-10-15T10:42:06.837442-04:00"
     description: Single sign-on for your Kubernetes services using Google OAuth
     digest: 19fcbbcf88f6fcc1ba52ea28b2f785a148ded7cc4ec72239abd25f9a89800ba4
@@ -1743,6 +1828,28 @@ entries:
     - https://charts.helm.sh/incubator/packages/buzzfeed-sso-0.0.1.tgz
     version: 0.0.1
   cassandra:
+  - apiVersion: v1
+    appVersion: 3.11.6
+    created: "2020-11-10T07:29:34.161310373Z"
+    description: Apache Cassandra is a free and open-source distributed database management
+      system designed to handle large amounts of data across many commodity servers,
+      providing high availability with no single point of failure.
+    digest: dd889d8b66dd83368056f54939b862c9c607bced9803896a8e511cf2d8852258
+    home: http://cassandra.apache.org
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/330px-Cassandra_logo.svg.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - email: goonohc@gmail.com
+      name: KongZ
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    name: cassandra
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/cassandra-0.15.3.tgz
+    version: 0.15.3
   - apiVersion: v1
     appVersion: 3.11.6
     created: "2020-10-15T10:42:06.862714-04:00"
@@ -3650,6 +3757,21 @@ entries:
   common:
   - apiVersion: v1
     appVersion: 0.0.5
+    created: "2020-11-10T07:29:34.161938173Z"
+    description: Common chartbuilding components and helpers
+    digest: 7ce0dadf2948b4725b9da7e7ebc2a2b70811b7e5c595ee31c3d5795488c865ce
+    home: https://helm.sh
+    maintainers:
+    - email: technosophos@gmail.com
+      name: technosophos
+    - email: adnan@bitnami.com
+      name: prydonius
+    name: common
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/common-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v1
+    appVersion: 0.0.5
     created: "2020-10-15T10:42:06.905003-04:00"
     description: Common chartbuilding components and helpers
     digest: 6bed63434c6d23bc6e3226f9181480b65e6f079d04ca3f9b82c3a2934cd0d7a8
@@ -4890,6 +5012,43 @@ entries:
     - https://charts.helm.sh/incubator/packages/drone-0.1.0.tgz
     version: 0.1.0
   druid:
+  - apiVersion: v1
+    appVersion: 0.19.0
+    created: "2020-11-10T07:29:34.169973567Z"
+    dependencies:
+    - condition: zookeeper.enabled
+      name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 2.1.4
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      version: 1.6.4
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.helm.sh/stable
+      version: 8.6.4
+    description: Apache Druid is a high performance real-time analytics database.
+    digest: b2772df646e94a407eea37229a7a1eb2723bc363b9beb7985db80d0a12a9cdf7
+    home: https://druid.apache.org/
+    icon: https://druid.apache.org/img/favicon.png
+    keywords:
+    - olap
+    - database
+    - analytics
+    maintainers:
+    - email: maciek@brynski.pl
+      name: maver1ck
+    - email: hellis@foxmail.com
+      name: AWaterColorPen
+    - email: asdf2014@apache.org
+      name: asdf2014
+    name: druid
+    sources:
+    - https://github.com/apache/druid
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/druid-0.2.17.tgz
+    version: 0.2.17
   - apiVersion: v1
     appVersion: 0.19.0
     created: "2020-10-15T10:42:06.96998-04:00"
@@ -7433,6 +7592,23 @@ entries:
   etcd:
   - apiVersion: v1
     appVersion: 3.2.26
+    created: "2020-11-10T07:29:34.170652267Z"
+    description: Distributed reliable key-value store for the most critical data of
+      a distributed system.
+    digest: bdd8232e660e8dbe40d0472924ab46b1d327ffd1dd53d4d28eb471a09e411f00
+    home: https://github.com/coreos/etcd
+    icon: https://raw.githubusercontent.com/coreos/etcd/master/logos/etcd-horizontal-color.png
+    maintainers:
+    - email: lachlan@deis.com
+      name: lachie83
+    name: etcd
+    sources:
+    - https://github.com/coreos/etcd
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/etcd-0.7.6.tgz
+    version: 0.7.6
+  - apiVersion: v1
+    appVersion: 3.2.26
     created: "2020-10-15T10:42:07.098497-04:00"
     description: Distributed reliable key-value store for the most critical data of
       a distributed system.
@@ -9473,6 +9649,27 @@ entries:
   gogs:
   - apiVersion: v1
     appVersion: 0.11.86
+    created: "2020-11-10T07:29:34.172199866Z"
+    dependencies:
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.helm.sh/stable
+      version: 0.6.0
+    description: 'Gogs: Go Git Service'
+    digest: 49d4a4ecc73898ceb9d792fa9fd0399d789553fcf4fdf4201f319844008a5cd7
+    home: https://gogs.io/
+    icon: https://gogs.io/img/favicon.ico
+    keywords:
+    - git
+    maintainers:
+    - name: obeyler
+    - name: poblin-orange
+    name: gogs
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/gogs-0.7.12.tgz
+    version: 0.7.12
+  - apiVersion: v1
+    appVersion: 0.11.86
     created: "2020-10-15T10:42:07.15136-04:00"
     dependencies:
     - condition: postgresql.install
@@ -10016,6 +10213,23 @@ entries:
     - https://charts.helm.sh/incubator/packages/grafana-0.1.0.tgz
     version: 0.1.0
   haproxy-ingress:
+  - apiVersion: v1
+    appVersion: 0.7.2
+    created: "2020-11-10T07:29:34.173832765Z"
+    deprecated: true
+    description: DEPRECATED Ingress controller implementation for haproxy loadbalancer.
+    digest: e99211db84cd56b935b2c53857d5aa5b99843980dd6708d36f7b1d1672d7d71a
+    home: https://github.com/jcmoraisjr/haproxy-ingress
+    icon: http://www.haproxy.org/img/HAProxyCommunityEdition_60px.png
+    keywords:
+    - ingress
+    - haproxy
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/haproxy-ingress-0.0.28.tgz
+    version: 0.0.28
   - apiVersion: v1
     appVersion: 0.7.2
     created: "2020-10-15T10:42:07.182287-04:00"
@@ -10573,6 +10787,29 @@ entries:
     - https://charts.helm.sh/incubator/packages/honeydipper-0.1.2.tgz
     version: 0.1.2
   hoverfly:
+  - apiVersion: v1
+    appVersion: 1.1.1
+    created: "2020-11-10T07:29:34.175452663Z"
+    description: Hoverfly is a lightweight, open source API simulation tool. Using
+      Hoverfly, you can create realistic simulations of the APIs your application
+      depends on.
+    digest: d58d6a1213af85e0c1ce9a20badca1941fe78fd071e96b398e69d38073bfd4e5
+    home: https://hoverfly.io
+    keywords:
+    - hoverfly
+    - api-simulation
+    - mocking
+    - stubbing
+    - service-virtualization
+    maintainers:
+    - email: tommy.situ@specto.io
+      name: tommysitu
+    name: hoverfly
+    sources:
+    - https://github.com/SpectoLabs/hoverfly
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/hoverfly-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v1
     appVersion: 1.1.1
     created: "2020-10-15T10:42:07.189883-04:00"
@@ -12741,6 +12978,39 @@ entries:
     - https://charts.helm.sh/incubator/packages/jenkins-operator-0.1.12.tgz
     version: 0.1.12
   kafka:
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: "2020-11-10T07:29:34.17988726Z"
+    dependencies:
+    - condition: kafka.zookeeper.enabled,zookeeper.enabled
+      name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 2.1.0
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: e2f4100f69936d5e6f10b45079b0066558170d23d293afb54f9d5a1f33d676e3
+    home: https://kafka.apache.org/
+    icon: https://kafka.apache.org/images/logo.png
+    keywords:
+    - kafka
+    - zookeeper
+    - kafka statefulset
+    maintainers:
+    - email: faraaz@rationalizeit.us
+      name: faraazkhan
+    - email: marc.villacorta@gmail.com
+      name: h0tbird
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: kafka
+    sources:
+    - https://github.com/kubernetes/charts/tree/master/incubator/zookeeper
+    - https://github.com/Yolean/kubernetes-kafka
+    - https://github.com/confluentinc/cp-docker-images
+    - https://github.com/apache/kafka
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/kafka-0.21.4.tgz
+    version: 0.21.4
   - apiVersion: v1
     appVersion: 5.0.1
     created: "2020-10-15T10:42:07.493552-04:00"
@@ -16873,6 +17143,24 @@ entries:
   kube-downscaler:
   - apiVersion: v1
     appVersion: 20.5.0
+    created: "2020-11-10T07:29:34.18055566Z"
+    description: A Helm chart for kube-downscaler
+    digest: 561c8c7f81ebb15866ebc3606b250c059f3743c423015fbf1df30817f29521e6
+    home: https://github.com/hjacobs/kube-downscaler
+    keywords:
+    - k8s pods scheduler
+    - scheduled lifecycle
+    maintainers:
+    - email: c.tresarrieu@gmail.com
+      name: Rowern
+    name: kube-downscaler
+    sources:
+    - https://github.com/hjacobs/kube-downscaler
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/kube-downscaler-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v1
+    appVersion: 20.5.0
     created: "2020-10-15T10:42:07.569169-04:00"
     description: A Helm chart for kube-downscaler
     digest: 1a4f22476f4b861e2b2b57480992b62a392e1097dd30316fcea919c21e76e288
@@ -17000,6 +17288,23 @@ entries:
   kube-janitor:
   - apiVersion: v1
     appVersion: v0.1.0
+    created: "2020-11-10T07:29:34.180970559Z"
+    description: A Helm chart for running kube-janitor
+    digest: a45d670b2f19998ba7460b39a968bbcbecd13ac6b42a5625f446f86f7400688d
+    home: https://github.com/themagicalkarp/kube-janitor
+    maintainers:
+    - email: gameboy1092@gmail.com
+      name: theMagicalKarp
+    - email: simkev2@gmail.com
+      name: SimKev2
+    name: kube-janitor
+    sources:
+    - https://github.com/themagicalkarp/kube-janitor
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/kube-janitor-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: v0.1.0
     created: "2020-10-15T10:42:07.569412-04:00"
     description: A Helm chart for running kube-janitor
     digest: 5baa22973ee9ab6d0bce555c6600bc0dc14c07170d6aab1e0d07f80dbacdb8d3
@@ -17047,6 +17352,19 @@ entries:
     - https://charts.helm.sh/incubator/packages/kube-ops-view-0.1.0.tgz
     version: 0.1.0
   kube-registry-proxy:
+  - apiVersion: v1
+    appVersion: "0.4"
+    created: "2020-11-10T07:29:34.181258959Z"
+    description: Installs the kubernetes-registry-proxy cluster addon.
+    digest: dcc011a8ee45771613100c14c042dd326c17d7989f65980e20aaaff8b11bba63
+    home: https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/registry
+    maintainers:
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    name: kube-registry-proxy
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/kube-registry-proxy-0.3.3.tgz
+    version: 0.3.3
   - apiVersion: v1
     appVersion: "0.4"
     created: "2020-10-15T10:42:07.571329-04:00"
@@ -17243,6 +17561,29 @@ entries:
     - https://charts.helm.sh/incubator/packages/kube-spot-termination-notice-handler-0.1.0.tgz
     version: 0.1.0
   kubeless:
+  - apiVersion: v1
+    appVersion: v1.0.5
+    created: "2020-11-10T07:29:34.182979858Z"
+    description: Kubeless is a Kubernetes-native serverless framework. It runs on
+      top of your Kubernetes cluster and allows you to deploy small unit of code without
+      having to build container images.
+    digest: 6f3bd71d04249042e33881b8afe6b81991ea0b3105e99bf88dcfde302e088af6
+    home: http://kubeless.io/
+    icon: https://cloud.githubusercontent.com/assets/4056725/25480209/1d5bf83c-2b48-11e7-8db8-bcd650f31297.png
+    keywords:
+    - kubeless
+    - serverless
+    - function-as-a-service
+    - faas
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kubeless
+    sources:
+    - https://github.com/kubeless/kubeless
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/kubeless-2.1.2.tgz
+    version: 2.1.2
   - apiVersion: v1
     appVersion: v1.0.5
     created: "2020-10-15T10:42:07.589789-04:00"
@@ -17704,6 +18045,22 @@ entries:
     - https://charts.helm.sh/incubator/packages/kubeless-0.2.0.tgz
     version: 0.2.0
   kubernetes-vault:
+  - apiVersion: v1
+    appVersion: 0.5.2
+    created: "2020-11-10T07:29:34.183466258Z"
+    description: The Kubernetes-Vault project allows pods to automatically receive
+      a Vault token using Vaults AppRole auth backend.
+    digest: 6710259cd41b9b78354a552be62a34b94e7a955b3a325461ea405d9a9fe706fb
+    home: https://github.com/Boostport/kubernetes-vault
+    maintainers:
+    - email: briggs.brenton@gmail.com
+      name: bbriggs
+    name: kubernetes-vault
+    sources:
+    - https://github.com/Boostport/kubernetes-vault
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/kubernetes-vault-0.2.2.tgz
+    version: 0.2.2
   - apiVersion: v1
     appVersion: 0.5.2
     created: "2020-10-15T10:42:07.590854-04:00"
@@ -18409,6 +18766,26 @@ entries:
   mysqlha:
   - apiVersion: v1
     appVersion: 5.7.13
+    created: "2020-11-10T07:29:34.184199457Z"
+    description: MySQL cluster with a single master and zero or more slave replicas
+    digest: 94d5734e8e74bd6e9c178aafc5576d5a8d16c3548dbb6dfcda19d2603c42b657
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: helmchart-mysql@jasonpoon.ca
+      name: jpoon
+    - email: urakiny@gmail.com
+      name: aisuko
+    name: mysqlha
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/mysqlha-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v1
+    appVersion: 5.7.13
     created: "2020-10-15T10:42:07.618835-04:00"
     description: MySQL cluster with a single master and zero or more slave replicas
     digest: 6aaa7cdb9b940f975b86459e59c09366e3396b0213eaedd1061218425661fc21
@@ -18976,6 +19353,23 @@ entries:
   orientdb:
   - apiVersion: v1
     appVersion: 3.0.13
+    created: "2020-11-10T07:29:34.184961557Z"
+    description: A Helm chart for Distributed OrientDB
+    digest: febb4342a969bd0b835ebda57c00da93f718aabcbcf4dadc6d1fee8af9b7b4c5
+    home: https://orientdb.com
+    icon: https://orientdb.com/wp-content/uploads/cropped-favicon-orientdb-192x192.png
+    maintainers:
+    - email: sommeliers@b-yond.com
+      name: b-yond-infinite-network
+      url: https://www.b-yond.com
+    - email: eli.kasik@b-yond.com
+      name: soujiro32167
+    name: orientdb
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/orientdb-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: 3.0.13
     created: "2020-10-15T10:42:07.624302-04:00"
     description: A Helm chart for Distributed OrientDB
     digest: eb26ae8bc7e2dd8e8b1f9270531c11b9be1defcc1edccbb151fa380f80f1fe90
@@ -18992,6 +19386,37 @@ entries:
     - https://charts.helm.sh/incubator/packages/orientdb-0.1.2.tgz
     version: 0.1.2
   patroni:
+  - apiVersion: v1
+    appVersion: 1.5-p5
+    created: "2020-11-10T07:29:34.188881054Z"
+    dependencies:
+    - condition: etcd.deployChart
+      name: etcd
+      repository: https://charts.helm.sh/incubator
+      version: 0.6.2
+    - condition: zookeeper.deployChart
+      name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 1.0.0
+    - condition: consul.deployChart
+      name: consul
+      repository: https://charts.helm.sh/stable
+      version: 3.6.1
+    description: 'Highly available elephant herd: HA PostgreSQL cluster.'
+    digest: 6e30e2cc7b6892b95eed4eda7bb160554ad6ec007045ec7c67b62ae8d9813466
+    home: https://github.com/zalando/patroni
+    maintainers:
+    - email: team-acid@zalando.de
+      name: alexeyklyukin
+    - email: team-teapot@zalando.de
+      name: linki
+    name: patroni
+    sources:
+    - https://github.com/zalando/patroni
+    - https://github.com/zalando/spilo
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/patroni-0.16.2.tgz
+    version: 0.16.2
   - apiVersion: v1
     appVersion: 1.5-p5
     created: "2020-10-15T10:42:07.650773-04:00"
@@ -19526,33 +19951,6 @@ entries:
     - https://charts.helm.sh/incubator/packages/patroni-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v1
-    appVersion: 1.3-p4
-    created: "2020-10-15T10:42:07.660868-04:00"
-    dependencies:
-    - condition: Etcd.DeployChart
-      name: etcd
-      repository: https://kubernetes-charts-incubator.storage.googleapis.com/
-      version: 0.3.6
-    - condition: Zookeeper.DeployChart
-      name: zookeeper
-      repository: https://kubernetes-charts-incubator.storage.googleapis.com/
-      version: 0.2.2
-    description: 'Highly available elephant herd: HA PostgreSQL cluster.'
-    digest: d81a4402b54878e0d6f84199682446f309e069656ab7803a78a37bf4e90d1f64
-    home: https://github.com/zalando/patroni
-    maintainers:
-    - email: team-acid@zalando.de
-      name: alexeyklyukin
-    - email: team-teapot@zalando.de
-      name: linki
-    name: patroni
-    sources:
-    - https://github.com/zalando/patroni
-    - https://github.com/zalando/spilo
-    urls:
-    - https://charts.helm.sh/incubator/packages/patroni-0.6.tgz
-    version: "0.6"
-  - apiVersion: v1
     appVersion: 1.2-p17
     created: "2020-10-15T10:42:07.655542-04:00"
     dependencies:
@@ -19579,33 +19977,6 @@ entries:
     urls:
     - https://charts.helm.sh/incubator/packages/patroni-0.5.1.tgz
     version: 0.5.1
-  - apiVersion: v1
-    appVersion: 1.2-p17
-    created: "2020-10-15T10:42:07.65655-04:00"
-    dependencies:
-    - condition: Etcd.DeployChart
-      name: etcd
-      repository: https://kubernetes-charts-incubator.storage.googleapis.com/
-      version: 0.2.1
-    - condition: Zookeeper.DeployChart
-      name: zookeeper
-      repository: https://kubernetes-charts-incubator.storage.googleapis.com/
-      version: 0.2.2
-    description: 'Highly available elephant herd: HA PostgreSQL cluster.'
-    digest: 111fbd934047f8093ab87cf16bda64a7a8524fe801e5d93a03232745df22f1c2
-    home: https://github.com/zalando/patroni
-    maintainers:
-    - email: team-acid@zalando.de
-      name: alexeyklyukin
-    - email: team-teapot@zalando.de
-      name: linki
-    name: patroni
-    sources:
-    - https://github.com/zalando/patroni
-    - https://github.com/zalando/spilo
-    urls:
-    - https://charts.helm.sh/incubator/packages/patroni-0.5.tgz
-    version: "0.5"
   - apiVersion: v1
     appVersion: 1.2-p17
     created: "2020-10-15T10:42:07.653735-04:00"
@@ -19984,6 +20355,25 @@ entries:
   redis-cache:
   - apiVersion: v1
     appVersion: 4.0.12-alpine
+    created: "2020-11-10T07:29:34.189409853Z"
+    description: A pure in-memory redis cache, using statefulset and redis-sentinel-micro
+    digest: 155b04015d1eec82e2e35d886856524d35e4802a4b6bb127a90346d7702ca8b2
+    home: https://redis.io/
+    icon: https://redis.io/images/redis-white.png
+    maintainers:
+    - email: dhilip.kumar.s@huawei.com
+      name: dhilipkumars
+    - email: ctadeu@gmail.com
+      name: cpanato
+    name: redis-cache
+    sources:
+    - https://github.com/antirez/redis
+    - https://github.com/dhilipkumars/redis-sentinel-micro/tree/k8s
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/redis-cache-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v1
+    appVersion: 4.0.12-alpine
     created: "2020-10-15T10:42:07.674869-04:00"
     description: A pure in-memory redis cache, using statefulset and redis-sentinel-micro
     digest: 59580d8a7025e5e8846fba1f16eb2ac3a8f3344a74b08d2defc3ff6afda179ca
@@ -20193,6 +20583,30 @@ entries:
     - https://charts.helm.sh/incubator/packages/riemann-0.1.0.tgz
     version: 0.1.0
   rundeck:
+  - apiVersion: v1
+    appVersion: 3.2.7
+    created: "2020-11-10T07:29:34.190344853Z"
+    description: A Rundeck chart for Kubernetes
+    digest: 564a6f4722e8ff97f254669081c38f639afd17c9ad5f6a0f97ddb5ec8b96615a
+    home: https://github.com/rundeck/rundeck
+    keywords:
+    - rundeck
+    - jobs
+    - automation
+    - operations
+    maintainers:
+    - email: hello@dwardu.com
+      name: dwardu89
+    - email: fabioviana.bh@gmail.com
+      name: fabioviana
+    - email: diego.fl.duarte@gmail.com
+      name: dfduarte
+    name: rundeck
+    sources:
+    - https://github.com/rundeck/rundeck
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/rundeck-0.3.5.tgz
+    version: 0.3.5
   - apiVersion: v1
     appVersion: 3.2.7
     created: "2020-10-15T10:42:07.681893-04:00"
@@ -20450,6 +20864,37 @@ entries:
     - https://charts.helm.sh/incubator/packages/rundeck-0.1.0.tgz
     version: 0.1.0
   schema-registry:
+  - apiVersion: v1
+    appVersion: 5.0.1
+    created: "2020-11-10T07:29:34.197855347Z"
+    dependencies:
+    - condition: kafka.enabled
+      name: kafka
+      repository: https://charts.helm.sh/incubator
+      version: 0.21.2
+    description: Schema Registry provides a serving layer for your metadata. It provides
+      a RESTful interface for storing and retrieving Avro schemas. It stores a versioned
+      history of all schemas, provides multiple compatibility settings and allows
+      evolution of schemas according to the configured compatibility setting. It provides
+      serializers that plug into Kafka clients that handle schema storage and retrieval
+      for Kafka messages that are sent in the Avro format.
+    digest: 3f0349b9ff173b55d503274f4b1642fba02822665b67d760d1611a03ce50834b
+    home: https://docs.confluent.io/current/schema-registry/docs/index.html
+    icon: https://www.confluent.io/wp-content/themes/confluent/assets/images/confluent-logo-300.png
+    keywords:
+    - confluent
+    - kafka
+    - schema-registry
+    maintainers:
+    - email: ben@spothero.com
+      name: benjigoldberg
+    name: schema-registry
+    sources:
+    - https://github.com/confluentinc/schema-registry
+    - https://github.com/confluentinc/cp-docker-images
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/schema-registry-1.2.2.tgz
+    version: 1.2.2
   - apiVersion: v1
     appVersion: 5.0.1
     created: "2020-10-15T10:42:07.741602-04:00"
@@ -21276,6 +21721,25 @@ entries:
   sentry-kubernetes:
   - apiVersion: v1
     appVersion: latest
+    created: "2020-11-10T07:29:34.198375447Z"
+    description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
+    digest: 028a20387a42a8488a9b718bb7dccbdf6312796d222a1c1c3be3b55d4bb003bc
+    home: https://github.com/getsentry/sentry-kubernetes
+    icon: https://sentry-brand.storage.googleapis.com/sentry-glyph-white.png
+    keywords:
+    - sentry
+    - report kubernetes events
+    maintainers:
+    - email: ctadeu@gmail.com
+      name: cpanato
+    name: sentry-kubernetes
+    sources:
+    - https://github.com/getsentry/sentry-kubernetes
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/sentry-kubernetes-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v1
+    appVersion: latest
     created: "2020-10-15T10:42:07.745324-04:00"
     description: A Helm chart for sentry-kubernetes (https://github.com/getsentry/sentry-kubernetes)
     digest: 424839f01384e181096868f60ab87ba03e3eebed75318ac4a7678fc5d89751d1
@@ -21488,6 +21952,27 @@ entries:
     - https://charts.helm.sh/incubator/packages/sentry-kubernetes-0.1.0.tgz
     version: 0.1.0
   solr:
+  - apiVersion: v1
+    appVersion: 8.4.0
+    created: "2020-11-10T07:29:34.201044545Z"
+    dependencies:
+    - name: zookeeper
+      repository: https://charts.helm.sh/incubator
+      version: 2.1.3
+    description: 'A helm chart to install Apache Solr: http://lucene.apache.org/solr/'
+    digest: 4861a359b6e345f946322aa9f18c3164e9e7351bfecffaa741b9c3460587d6ac
+    home: http://lucene.apache.org/solr/
+    keywords:
+    - solr
+    maintainers:
+    - email: ian.thebridge@lucidworks.com
+      name: ian-thebridge-lucidworks
+    name: solr
+    sources:
+    - https://gitbox.apache.org/repos/asf?p=lucene-solr.git
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/solr-1.5.4.tgz
+    version: 1.5.4
   - apiVersion: v1
     appVersion: 8.4.0
     created: "2020-10-15T10:42:07.767849-04:00"
@@ -21827,6 +22312,21 @@ entries:
     - https://charts.helm.sh/incubator/packages/spark-0.1.0.tgz
     version: 0.1.0
   sparkoperator:
+  - apiVersion: v1
+    appVersion: v1beta2-1.2.0-3.0.0
+    created: "2020-11-10T07:29:34.202909944Z"
+    description: A Helm chart for Spark on Kubernetes operator
+    digest: b10e0abec7f037d8d623cab3093b8f090e0a8e97a6f13cf856128deec58cbc05
+    home: https://github.com/GoogleCloudPlatform/spark-on-k8s-operator
+    keywords:
+    - spark
+    maintainers:
+    - email: yuchaoran2011@gmail.com
+      name: yuchaoran2011
+    name: sparkoperator
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/sparkoperator-0.8.5.tgz
+    version: 0.8.5
   - apiVersion: v1
     appVersion: v1beta2-1.2.0-3.0.0
     created: "2020-10-15T10:42:07.811282-04:00"
@@ -23131,6 +23631,25 @@ entries:
     - https://charts.helm.sh/incubator/packages/tensorflow-inception-0.1.0.tgz
     version: 0.1.0
   vault:
+  - apiVersion: v1
+    appVersion: 1.2.3
+    created: "2020-11-10T07:29:34.204290143Z"
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 2f3e06ae5f97f53358fba99c30d0d018800d8f38ad56d24d01fcfa21a69b38d8
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: jpds@protonmail.com
+      name: jpds
+    - email: jbialy@gmail.com
+      name: jbialy
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/docker-vault
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/vault-0.23.7.tgz
+    version: 0.23.7
   - apiVersion: v1
     appVersion: 1.2.3
     created: "2020-10-15T10:42:07.868-04:00"
@@ -24782,6 +25301,27 @@ entries:
   zookeeper:
   - apiVersion: v1
     appVersion: 3.5.5
+    created: "2020-11-10T07:29:34.206438541Z"
+    description: Centralized service for maintaining configuration information, naming,
+      providing distributed synchronization, and providing group services.
+    digest: ed0895da27ad0926abd68931c59c8947da6fbcb5ebc24f5182f4096820e6dd85
+    home: https://zookeeper.apache.org/
+    icon: https://zookeeper.apache.org/images/zookeeper_small.gif
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: owensk@google.com
+      name: kow3ns
+    name: zookeeper
+    sources:
+    - https://github.com/apache/zookeeper
+    - https://github.com/kubernetes/contrib/tree/master/statefulsets/zookeeper
+    urls:
+    - https://charts.helm.sh/stable/incubator/packages/zookeeper-2.1.5.tgz
+    version: 2.1.5
+  - apiVersion: v1
+    appVersion: 3.5.5
     created: "2020-10-15T10:42:07.923156-04:00"
     description: Centralized service for maintaining configuration information, naming,
       providing distributed synchronization, and providing group services.
@@ -25668,4 +26208,4 @@ entries:
     urls:
     - https://charts.helm.sh/incubator/packages/zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-15T10:42:06.793216-04:00"
+generated: "2020-11-10T07:29:34.155684977Z"
